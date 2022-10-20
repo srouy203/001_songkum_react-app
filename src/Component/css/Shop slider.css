@@ -1,0 +1,25 @@
+.swiper-slide > a > img{
+    cursor: pointer;
+    width: 100%;
+}
+.swiper{
+    height: fit-content;
+}
+.swiper .swiper-pagination-bullet-active{
+    background: #fff;
+}
+.swiper .swiper-button-prev , .cover .swiper .swiper-button-next{
+    color: #fff;
+}
+
+@media screen and (max-width: 760px) {
+    .swiper-wrapper .swiper-slide > a > img{
+        height: 400px;
+    }    
+}
+@media screen and (max-width: 760px) {
+    .swiper-wrapper .swiper-slide > a > img{
+        height: 300px;
+    }    
+}
+

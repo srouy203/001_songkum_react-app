@@ -1,0 +1,160 @@
+.shop-nav{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop-nav-con{
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop-nav-icon{
+    display: none;
+}
+
+/* ==============================Menu======================= */
+.shop-nav-menu{
+    margin: 0;
+    height: 100%;
+    width: 40vw;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    justify-content: start;
+    align-items: center;
+}
+.shop-nav-list{
+    height: 80%;
+    width: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop-nav-list > li{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+.shop-nav-list:hover{
+    transition: all 0.3s ease;
+    text-decoration: none;
+    background-color: rgba(219, 219, 219, 0.952);
+}
+/* ==============================Logo======================== */
+.shop-nav-logo{
+    height: 100%;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop-nav-logo .logo > img{
+    width: 80px;
+    height: 80px;
+}
+
+/* ==============================Search======================= */
+.shop-nav-search{
+    width: 40vw;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    align-items: center;
+    justify-content: end;
+}
+.shop-nav-search > input{
+    margin-right: 20px;
+    border: none;
+    height: 30px;
+    border-bottom: 1px solid black;
+}
+
+.seach-item > i {
+    margin: 0px 20px;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
+.seach-item > i:hover{
+    transition: 0.2s;
+    color: rgba(101, 101, 101, 0.952);
+}
+.seach-item > i:active{
+    color: rgba(57, 0, 246, 0.952);
+}
+
+/* =======================responesive======================= */
+@media screen and (max-width: 1200px){
+
+}
+@media screen and (max-width: 992px){
+    .shop-nav-icon{
+        display: inline;
+        position: absolute;
+        top: 115px;
+        font-size: 30px;
+        left: 20px;
+        color: black;
+        z-index: 1;
+        cursor: pointer;
+    }
+    .shop-nav-menu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 177px;
+        left: -100%;  
+        padding: 0;
+        transition: all 0.4s ease;
+        z-index: 10;
+    }
+    .shop-nav-menu.active{
+        left: 0px;
+        transition: all 0.4s ease;
+        background-color: white;
+    }
+    .shop-nav-list:hover{
+        background-color: rgb(255, 245, 233);
+    }
+    .shop-nav-list{
+        width: 100%;
+        height: 80px;
+    }
+    .shop-nav-logo{
+        display: none;
+    }
+    .shop-nav-search{
+        width: 100vw;   
+    }
+    .shop-nav-search > input{
+        width: 200px;
+    }
+}
+@media screen and (max-width: 768px){
+    
+}
+@media screen and (max-width: 576px){
+    .shop-nav-search > input{
+        width: 100px;
+        margin: 0;
+    }
+    .seach-item > i {
+        margin: 0px 10px;
+    }
+}
+
+
+
+
+
+
+
+
+

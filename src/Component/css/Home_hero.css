@@ -1,0 +1,268 @@
+.contain{
+    width: 100vw;
+    height: auto;
+}
+
+/* =======================left contain================== */
+.left-contain{
+    padding-top: 10px;
+    height: 100vh;
+    position: sticky;
+    top: 60px;
+    overflow: scroll;
+}
+.profile-contain{
+    margin-left: 3%;
+    width: 100%;
+    padding: 5px;
+    padding-left: 4%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.profile-contain:hover{
+    background-color: rgb(190, 190, 190);
+
+}
+.profile-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline;
+}
+.profile-contain .user-name{
+    display: inline;
+    text-decoration: none;
+    color: black;
+    margin-left: 4%;
+}
+
+.profile-contain > a{
+    text-decoration: none;
+}
+.menu-logo{
+    font-size: 25px;
+    color: black;
+    margin-left: 6px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.menu-title{   
+    color: black;
+    display: inline;
+    margin-left: 5%;
+}
+
+
+/* ============================mid contain=========================== */
+.mid-contain{
+    padding-top: 10px;
+}
+.upload{
+    width: 100%;
+    height: 69px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 3px 0px;
+}
+.upload >a> img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 15px;
+    border: 2px solid white;
+}
+.upload >a> img:hover{
+    border: 2px solid rgba(219, 219, 219, 0.952);
+}
+.upload > input{
+    width: 80%;
+    height: 50%;
+    margin-left: 15px;
+    border-radius: 30px;
+    padding: 0 15px;
+    border: none;
+    background-color: rgb(220, 220, 220);
+}
+.upload > input:hover{
+    background-color: rgb(190, 190, 190);
+    border: none;
+}
+/* ---------------post page------------ */
+.post{
+    width: 100%;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px 0px;
+}
+.post .user-profile{
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.user-profile > a{
+    text-decoration: none;
+}
+.post .user-profile >a> img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: inline;
+    border: 2px solid white;
+}
+.post .user-profile >a> img:hover{
+    border: 2px solid rgba(219, 219, 219, 0.952);
+}
+.post .user-profile >a> p{
+    display: inline;
+    color: black;
+    margin-left: 10px;
+}
+.post .post-contain{
+    width: 100%;
+}
+.post .post-contain > p{
+    margin-top: 10px;
+    padding: 0px 30px;
+}
+.post .post-contain > img{
+    width: 100%;
+}
+.like-cmt{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.like-cmt .like{
+    width: 30%;
+    display: inline;
+    padding: 10px 0px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.1s ease-out;
+}
+.like-cmt .like:hover{
+    background-color: rgb(190, 190, 190);
+}
+.like-cmt .like > i{
+    font-size: 30px;
+}
+/* ============================right .contain========================== */
+.right-contain{
+    padding-top: 10px;
+    height: 100vh;
+    position: sticky;
+    top: 60px;
+    overflow: scroll;
+}
+.title{
+    color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.all-users{
+    height: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+} 
+.all-users:hover{
+    background-color: rgb(190, 190, 190);
+}
+.all-users > a{
+    text-decoration: none;
+}
+.all-users > a> img{
+    display: inline;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-left: 3%;
+    margin-top: 2%;
+    border: 2px solid rgba(219, 219, 219, 0.952);
+}
+.all-users > a> img:hover{
+    border: 2px solid white;
+}
+.all-users > a> p{
+    display: inline;
+    margin-left: 3%;
+    color: black;
+    padding-top: 10px;
+}
+
+/* ==========================modal body============================ */
+.modal-body .user1{
+    width: 100%;
+}
+.modal-body .user1 > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: inline;
+    cursor: pointer;
+    border: 2px solid white;
+}
+.modal-body .user1 > img:hover{
+    border: 2px solid rgba(219, 219, 219, 0.952);
+}
+.modal-body .user1 > p{
+    display: inline;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.modal-body > form > .caption{
+    width: 100%;
+    border: none !important ;
+    padding: 10px 0px;
+    margin-top: 10px;
+}
+.modal-body > form > .photo{
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+/* ================================responsive================================= */
+@media screen and (max-width: 992px){
+    .left-contain{
+        display: none;
+    }
+    .right-contain{
+        display: none;
+    }
+    .mid-contain{
+        padding-left: 5%;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mid-contain{
+        padding-left: 6%;
+    }
+}
+@media screen and (max-width: 576px){
+    .mid-contain{
+        padding-left: 8%;
+    }
+    .upload{
+        padding: 0px 10px;
+    }
+}
+@media screen and (max-width: 420px){
+    .mid-contain{
+        padding-left: 10%;
+    }
+}
+
+

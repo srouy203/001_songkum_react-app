@@ -1,0 +1,173 @@
+.profile-post-contain{
+    padding-left: 15px;
+}
+.all-pic{
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px 20px;
+    margin-top: 10px;
+    display: inline;
+    height: 430px;
+    box-shadow: 0px 0px 3px 0px;
+    position: sticky;
+    top: 70px;
+}
+.all-pic > p{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.all-pic .pic{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.all-pic .pic > img{
+    width: 30%;
+    height: 100px;
+}
+
+/* ==================================post wrap======================= */
+
+.profile-post{
+    margin-top: 10px;
+}
+.post-wrap{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px;
+    margin-bottom: 20px;
+}
+.post-wrap > .user-profile{
+    width: 100%;
+    padding: 20px;
+}
+.post-wrap .user-profile >a{
+    text-decoration: none;
+}
+.post-wrap .user-profile >a> img{
+    width: 50px;
+    height: 50px;
+    display: inline;
+    border-radius: 50px;
+}
+.post-wrap .user-profile >a> p{
+    margin-left: 10px;
+    display: inline;
+    color: black;
+}
+.post-wrap .user-profile >a  >button{
+    float: right;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    border-radius: 50px;
+    border: none;
+}
+.post-wrap .user-profile >a >button:hover{
+    background-color: rgba(219, 219, 219, 0.952);
+    transition: 0.2s ease-out;
+}
+.post-wrap .post-contain>p{
+    padding: 0px 20px;
+}
+.post-wrap .post-contain>img{
+    width: 100%;
+    cursor: pointer;
+}
+.post-wrap .like-cmt{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.post-wrap .like-cmt .like{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.post-wrap .like-cmt .like:hover{
+    background-color: rgba(219, 219, 219, 0.952);
+}
+.post-wrap .like-cmt .like >i{
+    font-size: 30px;
+}
+
+/* ============================modal=========================== */
+
+.modal-edit-post{
+    text-align: center;
+}
+.modal-edit-post > .caption{
+    width: 80%;
+    padding: 10px;
+    border-style: none;
+}
+.modal-edit-post > img {
+    width: 80%;
+    margin-top: 20px;
+}
+.modal-edit-post > .photo{
+    width: 80%;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .all-pic{
+        height: 380px;
+    }
+    .all-pic .pic > img{
+        height: 83px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .all-pic{
+        height: 550px;
+        padding-left: 10%;
+        padding-right: 10%;
+        top: -100vh;
+    }
+    .profile-post-contain{
+        padding-left: 0px;
+    }
+    .all-pic .pic > img{
+        height: 130px;
+        width: 130px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .post-wrap .user-profile >a  >button{
+        margin-right: 0px;
+    }
+    .all-pic{
+        height: 460px;
+    }
+    .all-pic .pic > img{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .all-pic{
+        height: 440px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .all-pic{
+        height: 450px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

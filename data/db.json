@@ -1,0 +1,254 @@
+{
+    "Menu": [
+        {
+            "icon": "fa-solid fa-users menu-logo",
+            "title": "Menu-name"
+        },
+        {
+            "icon": "fa-solid fa-users menu-logo",
+            "title": "Logo-sitting"
+        },
+        {
+            "icon": "fa-solid fa-users menu-logo",
+            "title": "Menu-sitting"
+        },
+        {
+            "icon": "fa-solid fa-users menu-logo",
+            "title": "Menu-name"
+        },
+        {
+            "icon": "fa-solid fa-users menu-logo",
+            "title": "Logo-sitting"
+        },
+        {
+            "icon": "fa-solid fa-users menu-logo",
+            "title": "Menu-sitting"
+        },
+        {
+            "icon": "fa-solid fa-users menu-logo",
+            "title": "Menu-name"
+        },
+        {
+            "icon": "fa-solid fa-users menu-logo",
+            "title": "Logo-sitting"
+        },
+        {
+            "icon": "fa-solid fa-users menu-logo",
+            "title": "Menu-sitting"
+        },
+        {
+            "icon": "fa-solid fa-users menu-logo",
+            "title": "Menu-name"
+        },
+        {
+            "icon": "fa-solid fa-users menu-logo",
+            "title": "Logo-sitting"
+        },
+        {
+            "icon": "fa-solid fa-users menu-logo",
+            "title": "Menu-sitting"
+        },
+        {
+            "icon": "fa-solid fa-users menu-logo",
+            "title": "Menu-name"
+        },
+        {
+            "icon": "fa-solid fa-users menu-logo",
+            "title": "Logo-sitting"
+        },
+        {
+            "icon": "fa-solid fa-users menu-logo",
+            "title": "Menu-sitting"
+        },
+        {
+            "icon": "fa-solid fa-users menu-logo",
+            "title": "Menu-name"
+        },
+        {
+            "icon": "fa-solid fa-users menu-logo",
+            "title": "Logo-sitting"
+        },
+        {
+            "icon": "fa-solid fa-users menu-logo",
+            "title": "Menu-sitting"
+        }
+    ],
+
+    "Post": [
+        {
+            "userProfile": "./img/profile.jpg",
+            "userName": "Ang LeangSrouy",
+            "description": "Handsome boy picture...",
+            "userImg": "./img/2.PNG"
+          },
+          {
+            "userProfile": "./img/girl.jpg",
+            "userName": "Seng Lokha",
+            "description": "Hello my love",
+            "userImg": "./img/girl.jpg"
+          },
+          {
+            "userProfile": "./img/profile.jpg",
+            "userName": "Ang LeangSrouy",
+            "description": "Handsome boy picture...",
+            "userImg": "./img/1.JPG"
+          },
+          {
+            "userProfile": "./img/profile.jpg",
+            "userName": "Ang LeangSrouy",
+            "description": "Handsome boy picture...",
+            "userImg": "./img/1.JPG"
+          }
+    ],
+    "userActive": [
+        {
+            "userProfile": "./img/girl.jpg",
+            "userName": "Thida yerm"
+          },
+          {
+            "userProfile": "./img/profile.jpg",
+            "userName": "Ang LeangSrouy"
+          },
+          {
+            "userProfile": "./img/girl.jpg",
+            "userName": "Thida yerm"
+          },
+          {
+            "userProfile": "./img/profile.jpg",
+            "userName": "Ang LeangSrouy"
+          },
+          {
+            "userProfile": "./img/girl.jpg",
+            "userName": "Thida yerm"
+          },
+          {
+            "userProfile": "./img/profile.jpg",
+            "userName": "Ang LeangSrouy"
+          },
+          {
+            "userProfile": "./img/girl.jpg",
+            "userName": "Thida yerm"
+          },
+          {
+            "userProfile": "./img/profile.jpg",
+            "userName": "Ang LeangSrouy"
+          },
+          {
+            "userProfile": "./img/girl.jpg",
+            "userName": "Thida yerm"
+          },
+          {
+            "userProfile": "./img/profile.jpg",
+            "userName": "Ang LeangSrouy"
+          },
+          {
+            "userProfile": "./img/girl.jpg",
+            "userName": "Thida yerm"
+          },
+          {
+            "userProfile": "./img/profile.jpg",
+            "userName": "Ang LeangSrouy"
+          },
+          {
+            "userProfile": "./img/girl.jpg",
+            "userName": "Thida yerm"
+          },
+          {
+            "userProfile": "./img/profile.jpg",
+            "userName": "Ang LeangSrouy"
+          },
+          {
+            "userProfile": "./img/girl.jpg",
+            "userName": "SokThida yerm"
+          },
+          {
+            "userProfile": "./img/profile.jpg",
+            "userName": "Ang LeangSrouy"
+          },
+          {
+            "userProfile": "./img/girl.jpg",
+            "userName": "Thida yerm"
+          },
+          {
+            "userProfile": "./img/profile.jpg",
+            "userName": "Ang LeangSrouy"
+          }
+    ],
+
+
+    "menProduct" : [
+        {
+            "img": "./img/boy.jpg",
+            "price": "$8.40",
+            "discount": "30%",
+            "title": "SongKum Man Bag-pack"
+        },
+        {
+            "img": "./img/boy.jpg",
+            "price": "$9.00",
+            "discount": "40%",
+            "title": "SongKum Man T-Shirt"
+        },
+            {
+            "img": "./img/boy.jpg",
+            "price": "$8.40",
+            "discount": "30%",
+            "title": "SongKum Man Bag-pack"
+        },
+        {
+            "img": "./img/boy.jpg",
+            "price": "$9.00",
+            "discount": "40%",
+            "title": "SongKum Man T-Shirt"
+        }
+    ],
+
+    "WomenProduct":[
+        {
+            "img": "./img/girl.jpg",
+            "price": "$8.40",
+            "discount": "30%",
+            "title": "SongKum Lady T-Shirt"
+        },
+        {
+            "img": "./img/girl.jpg",
+            "price": "$10.01",
+            "discount": "20%",
+            "title": "SongKum Lady Shoes"
+        },
+        {
+            "img": "./img/girl.jpg",
+            "price": "$8.40",
+            "discount": "30%",
+            "title": "SongKum Lady T-Shirt"
+        },
+        {
+            "img": "./img/girl.jpg",
+            "price": "$10.01",
+            "discount": "20%",
+            "title": "SongKum Lady Shoes"
+        }
+    ],
+
+
+    "ProfileCover":[
+        {
+            "cover": "./img/cover.jpg",
+            "profile": "./img/profile.jpg",
+            "username": "Ang LeangSrouy"
+        }
+    ],
+
+    "SliceImg":[
+      {
+        "sliceImg": "./img/cover-shop2.png"
+      },
+      {
+        "sliceImg": "./img/cover-shop2.png"
+      },
+      {
+        "sliceImg": "./img/cover-shop2.png"
+      }
+    ]
+
+}

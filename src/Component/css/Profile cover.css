@@ -1,0 +1,121 @@
+/* ==========================profile page======================== */
+.container .profile-page{
+    background-color: white;
+    box-shadow: 0px 0px 3px 0px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.container .profile-page .cover{
+    width: 100%;
+    margin-top: 1%;
+}
+.container .profile-page .cover > img{
+    width: 100%;
+    height: 50vh;
+    border-radius: 10px;
+    z-index: 0;
+    cursor: pointer;
+}
+.container .profile-page .profile {
+    margin-top: -30px;
+}
+.container .profile-page .profile > img{
+    width: 15%;
+    border-radius: 100px;
+    display: inline;
+    z-index: 10;
+    border: 5px solid rgb(95, 95, 95);
+    margin-left: 3%;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+.container .profile-page .profile > img:hover{
+    border: 5px solid rgba(219, 219, 219, 0.952);
+}
+.container .profile-page .profile > p{
+    display: inline;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.container .profile-page .profile>button{
+    float: right;
+    margin-top: 120px;
+    margin-right: 30px;
+}
+
+/* ======================modal======================= */
+.modal .modal-body >form > input{
+    margin-bottom: 20px;
+}
+
+/* ========================mobile======================= */
+@media screen and (max-width: 1200px) {
+    .container .profile-page .cover > img{
+        height: 40vh;
+    }
+    .container .profile-page .profile>button{
+        margin-top: 80px;
+    }
+
+
+}
+@media screen and (max-width: 992px) {
+    .container .profile-page .cover > img{
+        height: 30vh;
+    }
+    .container .profile-page .profile > img{
+        width: 20%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container .profile-page{
+       height: auto;
+    }
+    .container .profile-page .profile{
+        text-align: center;
+    }
+    .container .profile-page .cover > img{
+        height: 30vh;
+    }
+    .container .profile-page .profile > img{
+        width: 30%;
+        margin-top: -50px;
+        margin-left: 0px;
+    }
+    .container .profile-page .profile > p{
+        display: block
+    }
+    .container .profile-page .profile > button{
+        float: none;
+        margin: 0px;
+        width: 130px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .container .profile-page .cover > img{
+        height: 25vh;
+    }
+    .container .profile-page .profile > img{
+        margin-top: -30px;
+        margin-bottom: 10px;
+    }
+    .container .profile-page .profile > button{
+        font-size: 10px;
+        width: auto;
+    }
+}
+@media screen and (max-width: 400px) {
+    .container .profile-page .profile > img{
+        width: 40%;
+    }
+    .container .profile-page .profile > button{
+        font-size: 10px;
+        width: auto;
+    }
+}
+
+
+
+
